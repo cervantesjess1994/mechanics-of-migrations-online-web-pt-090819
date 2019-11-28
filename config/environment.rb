@@ -3,7 +3,7 @@ require 'active_record'
 require 'yaml/store'
 require 'ostruct'
 require 'date'
-require_relative "../artist.rb"
+require_relative "db/artist.rb"
 
 require 'bundler/setup'
 Bundler.require
